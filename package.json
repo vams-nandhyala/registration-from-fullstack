@@ -1,0 +1,21 @@
+{
+  "name": "smoketrees-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm run start",
+    "backend": "cd backend && npm start backend",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "mysql": "^2.18.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^6.26.2"
+  }
+}
